@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.test.DDTest">
+      <class name="api.test.COSTest">
         <methods>
-          <include name="DeleteAllRdu" invocation-numbers="0 1 2 3"/>
+          <include name="CSInputData"/>
+          <include name="testCreateSession"/>
+          <include name="COSInputdata"/>
+          <include name="testAddCOS"/>
+          <include name="testUpdateCOS"/>
         </methods>
-      </class> <!-- api.test.DDTest -->
+      </class> <!-- api.test.COSTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

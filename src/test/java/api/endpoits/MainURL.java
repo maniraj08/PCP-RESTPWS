@@ -18,4 +18,14 @@ public class MainURL {
 	public static String delete_url=base_url+"/RDU/{rduHost}";
 	
 	
+	//CreateSession
+	
+	public static String CS_postUrl=base_url+"/createSession";
+	
+	//COS Operation Module
+	
+	public static String cos_postUrl=base_url+"/addCOS";
+	public static String cos_getUrl=base_url+"/getClassOfService";
+	public static String cos_updateUrl=base_url+"/updateCOS";
+	public static String cos_deleteUrl=base_url+"/deleteCOS";
 }

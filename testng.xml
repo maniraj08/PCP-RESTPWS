@@ -10,6 +10,7 @@
   <test thread-count="5" name="RduCURD">
     <classes>
       <class name="api.test.RestPWSTest"/>
+      <class name="api.test.COSTest"/>
       <!-- <class name="api.test.DDTest"/>-->
     </classes>
   </test> <!-- RduCURD -->

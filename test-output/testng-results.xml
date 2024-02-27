@@ -1,33 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-22T10:29:17 IST" name="RESTOperations" finished-at="2024-02-22T10:29:22 IST" duration-ms="5365">
+  <suite started-at="2024-02-27T16:46:29 IST" name="RESTOperations" finished-at="2024-02-27T16:46:35 IST" duration-ms="6129">
     <groups>
     </groups>
-    <test started-at="2024-02-22T10:29:17 IST" name="RduCURD" finished-at="2024-02-22T10:29:22 IST" duration-ms="5365">
+    <test started-at="2024-02-27T16:46:29 IST" name="RduCURD" finished-at="2024-02-27T16:46:35 IST" duration-ms="6129">
       <class name="api.test.RestPWSTest">
-        <test-method is-config="true" signature="InputData()[pri:0, instance:api.test.RestPWSTest@68e965f5]" started-at="2024-02-22T10:29:18 IST" name="InputData" finished-at="2024-02-22T10:29:19 IST" duration-ms="1038" status="PASS">
+        <test-method is-config="true" signature="InputData()[pri:0, instance:api.test.RestPWSTest@44a7bfbc]" started-at="2024-02-27T16:46:29 IST" name="InputData" finished-at="2024-02-27T16:46:30 IST" duration-ms="847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InputData -->
-        <test-method signature="testAddRdu()[pri:1, instance:api.test.RestPWSTest@68e965f5]" started-at="2024-02-22T10:29:19 IST" name="testAddRdu" finished-at="2024-02-22T10:29:22 IST" duration-ms="3073" status="PASS">
+        <test-method signature="testAddRdu()[pri:1, instance:api.test.RestPWSTest@44a7bfbc]" started-at="2024-02-27T16:46:30 IST" name="testAddRdu" finished-at="2024-02-27T16:46:32 IST" duration-ms="2233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddRdu -->
-        <test-method signature="testGetRdu()[pri:2, instance:api.test.RestPWSTest@68e965f5]" started-at="2024-02-22T10:29:22 IST" name="testGetRdu" finished-at="2024-02-22T10:29:22 IST" duration-ms="214" status="PASS">
+        <test-method signature="testGetRdu()[pri:2, instance:api.test.RestPWSTest@44a7bfbc]" started-at="2024-02-27T16:46:32 IST" name="testGetRdu" finished-at="2024-02-27T16:46:33 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRdu -->
-        <test-method signature="testUpdateRdu()[pri:3, instance:api.test.RestPWSTest@68e965f5]" started-at="2024-02-22T10:29:22 IST" name="testUpdateRdu" finished-at="2024-02-22T10:29:22 IST" duration-ms="455" status="PASS">
+        <test-method signature="testUpdateRdu()[pri:3, instance:api.test.RestPWSTest@44a7bfbc]" started-at="2024-02-27T16:46:33 IST" name="testUpdateRdu" finished-at="2024-02-27T16:46:33 IST" duration-ms="444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateRdu -->
-        <test-method signature="testDeleteRdu()[pri:4, instance:api.test.RestPWSTest@68e965f5]" started-at="2024-02-22T10:29:22 IST" name="testDeleteRdu" finished-at="2024-02-22T10:29:22 IST" duration-ms="161" status="PASS">
+        <test-method signature="testDeleteRdu()[pri:4, instance:api.test.RestPWSTest@44a7bfbc]" started-at="2024-02-27T16:46:33 IST" name="testDeleteRdu" finished-at="2024-02-27T16:46:33 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteRdu -->
       </class> <!-- api.test.RestPWSTest -->
+      <class name="api.test.COSTest">
+        <test-method is-config="true" signature="CSInputData()[pri:0, instance:api.test.COSTest@52102734]" started-at="2024-02-27T16:46:33 IST" name="CSInputData" finished-at="2024-02-27T16:46:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CSInputData -->
+        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@52102734]" started-at="2024-02-27T16:46:33 IST" name="COSInputdata" finished-at="2024-02-27T16:46:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- COSInputdata -->
+        <test-method signature="testCreateSession()[pri:1, instance:api.test.COSTest@52102734]" started-at="2024-02-27T16:46:33 IST" name="testCreateSession" finished-at="2024-02-27T16:46:34 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSession -->
+        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@52102734]" started-at="2024-02-27T16:46:34 IST" name="COSInputdata" finished-at="2024-02-27T16:46:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- COSInputdata -->
+        <test-method signature="testAddCOS()[pri:2, instance:api.test.COSTest@52102734]" started-at="2024-02-27T16:46:34 IST" name="testAddCOS" finished-at="2024-02-27T16:46:34 IST" depends-on-methods="api.test.COSTest.testCreateSession" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCOS -->
+        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@52102734]" started-at="2024-02-27T16:46:34 IST" name="COSInputdata" finished-at="2024-02-27T16:46:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- COSInputdata -->
+        <test-method signature="testGetCOS()[pri:3, instance:api.test.COSTest@52102734]" started-at="2024-02-27T16:46:34 IST" name="testGetCOS" finished-at="2024-02-27T16:46:34 IST" depends-on-methods="api.test.COSTest.testCreateSession" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCOS -->
+        <test-method signature="testUpdateCOS()[pri:4, instance:api.test.COSTest@52102734]" started-at="2024-02-27T16:46:34 IST" name="testUpdateCOS" finished-at="2024-02-27T16:46:34 IST" depends-on-methods="api.test.COSTest.testCreateSession" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateCOS -->
+        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@52102734]" started-at="2024-02-27T16:46:34 IST" name="COSInputdata" finished-at="2024-02-27T16:46:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- COSInputdata -->
+        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@52102734]" started-at="2024-02-27T16:46:34 IST" name="COSInputdata" finished-at="2024-02-27T16:46:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- COSInputdata -->
+        <test-method signature="testDeleteCOS()[pri:5, instance:api.test.COSTest@52102734]" started-at="2024-02-27T16:46:34 IST" name="testDeleteCOS" finished-at="2024-02-27T16:46:35 IST" depends-on-methods="api.test.COSTest.testCreateSession" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCOS -->
+      </class> <!-- api.test.COSTest -->
     </test> <!-- RduCURD -->
   </suite> <!-- RESTOperations -->
 </testng-results>
