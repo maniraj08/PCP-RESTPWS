@@ -1,78 +1,320 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="26" passed="24" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-27T16:51:05 IST" name="RESTOperations" finished-at="2024-02-27T16:51:11 IST" duration-ms="6199">
+  <suite started-at="2024-03-07T19:31:22 IST" name="RESTOperations" finished-at="2024-03-07T19:31:31 IST" duration-ms="9389">
     <groups>
     </groups>
-    <test started-at="2024-02-27T16:51:05 IST" name="RduCURD" finished-at="2024-02-27T16:51:11 IST" duration-ms="6199">
+    <test started-at="2024-03-07T19:31:22 IST" name="RduCURD" finished-at="2024-03-07T19:31:31 IST" duration-ms="9389">
       <class name="api.test.RestPWSTest">
-        <test-method is-config="true" signature="InputData()[pri:0, instance:api.test.RestPWSTest@6913c1fb]" started-at="2024-02-27T16:51:05 IST" name="InputData" finished-at="2024-02-27T16:51:06 IST" duration-ms="785" status="PASS">
+        <test-method is-config="true" signature="InputData()[pri:0, instance:api.test.RestPWSTest@65d09a04]" started-at="2024-03-07T19:31:22 IST" name="InputData" finished-at="2024-03-07T19:31:23 IST" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InputData -->
-        <test-method signature="testAddRdu()[pri:1, instance:api.test.RestPWSTest@6913c1fb]" started-at="2024-02-27T16:51:06 IST" name="testAddRdu" finished-at="2024-02-27T16:51:08 IST" duration-ms="2627" status="PASS">
+        <test-method signature="testAddRdu()[pri:1, instance:api.test.RestPWSTest@65d09a04]" started-at="2024-03-07T19:31:23 IST" name="testAddRdu" finished-at="2024-03-07T19:31:25 IST" duration-ms="1959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddRdu -->
-        <test-method signature="testGetRdu()[pri:2, instance:api.test.RestPWSTest@6913c1fb]" started-at="2024-02-27T16:51:08 IST" name="testGetRdu" finished-at="2024-02-27T16:51:08 IST" duration-ms="160" status="PASS">
+        <test-method signature="testGetRdu()[pri:2, instance:api.test.RestPWSTest@65d09a04]" started-at="2024-03-07T19:31:25 IST" name="testGetRdu" finished-at="2024-03-07T19:31:25 IST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRdu -->
-        <test-method signature="testUpdateRdu()[pri:3, instance:api.test.RestPWSTest@6913c1fb]" started-at="2024-02-27T16:51:08 IST" name="testUpdateRdu" finished-at="2024-02-27T16:51:09 IST" duration-ms="354" status="PASS">
+        <test-method signature="testUpdateRdu()[pri:3, instance:api.test.RestPWSTest@65d09a04]" started-at="2024-03-07T19:31:25 IST" name="testUpdateRdu" finished-at="2024-03-07T19:31:25 IST" duration-ms="546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateRdu -->
-        <test-method signature="testDeleteRdu()[pri:4, instance:api.test.RestPWSTest@6913c1fb]" started-at="2024-02-27T16:51:09 IST" name="testDeleteRdu" finished-at="2024-02-27T16:51:09 IST" duration-ms="127" status="PASS">
+        <test-method signature="testDeleteRdu()[pri:4, instance:api.test.RestPWSTest@65d09a04]" started-at="2024-03-07T19:31:25 IST" name="testDeleteRdu" finished-at="2024-03-07T19:31:26 IST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteRdu -->
       </class> <!-- api.test.RestPWSTest -->
-      <class name="api.test.COSTest">
-        <test-method is-config="true" signature="CSInputData()[pri:0, instance:api.test.COSTest@1e66f1f5]" started-at="2024-02-27T16:51:09 IST" name="CSInputData" finished-at="2024-02-27T16:51:09 IST" duration-ms="1" status="PASS">
+      <class name="api.test.ServerOperationTest">
+        <test-method is-config="true" signature="CSInputData()[pri:0, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:28 IST" name="CSInputData" finished-at="2024-03-07T19:31:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CSInputData -->
-        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@1e66f1f5]" started-at="2024-02-27T16:51:09 IST" name="COSInputdata" finished-at="2024-02-27T16:51:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="ServerInputdatas()[pri:0, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:28 IST" name="ServerInputdatas" finished-at="2024-03-07T19:31:28 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- COSInputdata -->
-        <test-method signature="testCreateSession()[pri:1, instance:api.test.COSTest@1e66f1f5]" started-at="2024-02-27T16:51:09 IST" name="testCreateSession" finished-at="2024-02-27T16:51:10 IST" duration-ms="840" status="PASS">
+        </test-method> <!-- ServerInputdatas -->
+        <test-method signature="testCreateSession()[pri:1, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:28 IST" name="testCreateSession" finished-at="2024-03-07T19:31:28 IST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateSession -->
-        <test-method signature="testAddCOS()[pri:2, instance:api.test.COSTest@1e66f1f5]" started-at="2024-02-27T16:51:10 IST" name="testAddCOS" finished-at="2024-02-27T16:51:10 IST" depends-on-methods="api.test.COSTest.testCreateSession" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="ServerInputdatas()[pri:0, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:28 IST" name="ServerInputdatas" finished-at="2024-03-07T19:31:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServerInputdatas -->
+        <test-method signature="testGetAllCnrs()[pri:2, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:28 IST" name="testGetAllCnrs" finished-at="2024-03-07T19:31:28 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllCnrs -->
+        <test-method is-config="true" signature="ServerInputdatas()[pri:0, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:28 IST" name="ServerInputdatas" finished-at="2024-03-07T19:31:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServerInputdatas -->
+        <test-method signature="testGetAllDpes()[pri:3, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:28 IST" name="testGetAllDpes" finished-at="2024-03-07T19:31:28 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllDpes -->
+        <test-method is-config="true" signature="ServerInputdatas()[pri:0, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:28 IST" name="ServerInputdatas" finished-at="2024-03-07T19:31:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServerInputdatas -->
+        <test-method signature="testgetAllProvGrps()[pri:4, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:28 IST" name="testgetAllProvGrps" finished-at="2024-03-07T19:31:28 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetAllProvGrps -->
+        <test-method is-config="true" signature="ServerInputdatas()[pri:0, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:28 IST" name="ServerInputdatas" finished-at="2024-03-07T19:31:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServerInputdatas -->
+        <test-method signature="testgetCNRDetails()[pri:5, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:28 IST" name="testgetCNRDetails" finished-at="2024-03-07T19:31:29 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetCNRDetails -->
+        <test-method is-config="true" signature="ServerInputdatas()[pri:0, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:29 IST" name="ServerInputdatas" finished-at="2024-03-07T19:31:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServerInputdatas -->
+        <test-method signature="testgetDefaults()[pri:6, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:29 IST" name="testgetDefaults" finished-at="2024-03-07T19:31:29 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetDefaults -->
+        <test-method is-config="true" signature="ServerInputdatas()[pri:0, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:29 IST" name="ServerInputdatas" finished-at="2024-03-07T19:31:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServerInputdatas -->
+        <test-method signature="testgetDPEDefaults()[pri:7, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:29 IST" name="testgetDPEDefaults" finished-at="2024-03-07T19:31:29 IST" duration-ms="154" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.test.ServerOperationTest.testgetDPEDefaults(ServerOperationTest.java:132)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetDPEDefaults -->
+        <test-method signature="testgetDPEDetails()[pri:8, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:29 IST" name="testgetDPEDetails" finished-at="2024-03-07T19:31:29 IST" duration-ms="222" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.test.ServerOperationTest.testgetDPEDetails(ServerOperationTest.java:144)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetDPEDetails -->
+        <test-method is-config="true" signature="ServerInputdatas()[pri:0, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:29 IST" name="ServerInputdatas" finished-at="2024-03-07T19:31:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServerInputdatas -->
+        <test-method is-config="true" signature="ServerInputdatas()[pri:0, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:29 IST" name="ServerInputdatas" finished-at="2024-03-07T19:31:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServerInputdatas -->
+        <test-method signature="testgetExtenPointSettings()[pri:9, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:29 IST" name="testgetExtenPointSettings" finished-at="2024-03-07T19:31:29 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetExtenPointSettings -->
+        <test-method is-config="true" signature="ServerInputdatas()[pri:0, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:29 IST" name="ServerInputdatas" finished-at="2024-03-07T19:31:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServerInputdatas -->
+        <test-method signature="testchangeDetafuls()[pri:10, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:29 IST" name="testchangeDetafuls" finished-at="2024-03-07T19:31:30 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testchangeDetafuls -->
+        <test-method is-config="true" signature="ServerInputdatas()[pri:0, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:30 IST" name="ServerInputdatas" finished-at="2024-03-07T19:31:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServerInputdatas -->
+        <test-method signature="testchangeRDUDetafuls()[pri:11, instance:api.test.ServerOperationTest@4c39bec8]" started-at="2024-03-07T19:31:30 IST" name="testchangeRDUDetafuls" finished-at="2024-03-07T19:31:30 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testchangeRDUDetafuls -->
+      </class> <!-- api.test.ServerOperationTest -->
+      <class name="api.test.SearchTest">
+        <test-method is-config="true" signature="CSInputData()[pri:0, instance:api.test.SearchTest@f79e]" started-at="2024-03-07T19:31:30 IST" name="CSInputData" finished-at="2024-03-07T19:31:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CSInputData -->
+        <test-method is-config="true" signature="COSInputdatas()[pri:0, instance:api.test.SearchTest@f79e]" started-at="2024-03-07T19:31:30 IST" name="COSInputdatas" finished-at="2024-03-07T19:31:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- COSInputdatas -->
+        <test-method signature="testCreateSession()[pri:1, instance:api.test.SearchTest@f79e]" started-at="2024-03-07T19:31:30 IST" name="testCreateSession" finished-at="2024-03-07T19:31:30 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSession -->
+        <test-method signature="testCOSSearch()[pri:2, instance:api.test.SearchTest@f79e]" started-at="2024-03-07T19:31:30 IST" name="testCOSSearch" finished-at="2024-03-07T19:31:30 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCOSSearch -->
+        <test-method is-config="true" signature="COSInputdatas()[pri:0, instance:api.test.SearchTest@f79e]" started-at="2024-03-07T19:31:30 IST" name="COSInputdatas" finished-at="2024-03-07T19:31:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- COSInputdatas -->
+        <test-method is-config="true" signature="COSInputdatas()[pri:0, instance:api.test.SearchTest@f79e]" started-at="2024-03-07T19:31:30 IST" name="COSInputdatas" finished-at="2024-03-07T19:31:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- COSInputdatas -->
+        <test-method signature="testDhcpSearch()[pri:3, instance:api.test.SearchTest@f79e]" started-at="2024-03-07T19:31:30 IST" name="testDhcpSearch" finished-at="2024-03-07T19:31:31 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDhcpSearch -->
+        <test-method signature="testFileSearch()[pri:4, instance:api.test.SearchTest@f79e]" started-at="2024-03-07T19:31:31 IST" name="testFileSearch" finished-at="2024-03-07T19:31:31 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileSearch -->
+        <test-method is-config="true" signature="COSInputdatas()[pri:0, instance:api.test.SearchTest@f79e]" started-at="2024-03-07T19:31:31 IST" name="COSInputdatas" finished-at="2024-03-07T19:31:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- COSInputdatas -->
+        <test-method is-config="true" signature="COSInputdatas()[pri:0, instance:api.test.SearchTest@f79e]" started-at="2024-03-07T19:31:31 IST" name="COSInputdatas" finished-at="2024-03-07T19:31:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- COSInputdatas -->
+        <test-method signature="testGroupSearch()[pri:5, instance:api.test.SearchTest@f79e]" started-at="2024-03-07T19:31:31 IST" name="testGroupSearch" finished-at="2024-03-07T19:31:31 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupSearch -->
+        <test-method signature="testSearchDevices()[pri:6, instance:api.test.SearchTest@f79e]" started-at="2024-03-07T19:31:31 IST" name="testSearchDevices" finished-at="2024-03-07T19:31:31 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchDevices -->
+        <test-method is-config="true" signature="COSInputdatas()[pri:0, instance:api.test.SearchTest@f79e]" started-at="2024-03-07T19:31:31 IST" name="COSInputdatas" finished-at="2024-03-07T19:31:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- COSInputdatas -->
+      </class> <!-- api.test.SearchTest -->
+      <class name="api.test.COSTest">
+        <test-method is-config="true" signature="CSInputData()[pri:0, instance:api.test.COSTest@8c3b9d]" started-at="2024-03-07T19:31:26 IST" name="CSInputData" finished-at="2024-03-07T19:31:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CSInputData -->
+        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@8c3b9d]" started-at="2024-03-07T19:31:26 IST" name="COSInputdata" finished-at="2024-03-07T19:31:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- COSInputdata -->
+        <test-method signature="testCreateSession()[pri:1, instance:api.test.COSTest@8c3b9d]" started-at="2024-03-07T19:31:26 IST" name="testCreateSession" finished-at="2024-03-07T19:31:26 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSession -->
+        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@8c3b9d]" started-at="2024-03-07T19:31:26 IST" name="COSInputdata" finished-at="2024-03-07T19:31:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- COSInputdata -->
+        <test-method signature="testAddCOS()[pri:2, instance:api.test.COSTest@8c3b9d]" started-at="2024-03-07T19:31:26 IST" name="testAddCOS" finished-at="2024-03-07T19:31:27 IST" depends-on-methods="api.test.COSTest.testCreateSession" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddCOS -->
-        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@1e66f1f5]" started-at="2024-02-27T16:51:10 IST" name="COSInputdata" finished-at="2024-02-27T16:51:10 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@8c3b9d]" started-at="2024-03-07T19:31:27 IST" name="COSInputdata" finished-at="2024-03-07T19:31:27 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- COSInputdata -->
-        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@1e66f1f5]" started-at="2024-02-27T16:51:10 IST" name="COSInputdata" finished-at="2024-02-27T16:51:10 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- COSInputdata -->
-        <test-method signature="testGetCOS()[pri:3, instance:api.test.COSTest@1e66f1f5]" started-at="2024-02-27T16:51:10 IST" name="testGetCOS" finished-at="2024-02-27T16:51:10 IST" depends-on-methods="api.test.COSTest.testCreateSession" duration-ms="144" status="PASS">
+        <test-method signature="testGetCOS()[pri:3, instance:api.test.COSTest@8c3b9d]" started-at="2024-03-07T19:31:27 IST" name="testGetCOS" finished-at="2024-03-07T19:31:27 IST" depends-on-methods="api.test.COSTest.testCreateSession" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCOS -->
-        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@1e66f1f5]" started-at="2024-02-27T16:51:10 IST" name="COSInputdata" finished-at="2024-02-27T16:51:10 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@8c3b9d]" started-at="2024-03-07T19:31:27 IST" name="COSInputdata" finished-at="2024-03-07T19:31:27 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- COSInputdata -->
-        <test-method signature="testUpdateCOS()[pri:4, instance:api.test.COSTest@1e66f1f5]" started-at="2024-02-27T16:51:10 IST" name="testUpdateCOS" finished-at="2024-02-27T16:51:10 IST" depends-on-methods="api.test.COSTest.testCreateSession" duration-ms="299" status="PASS">
+        <test-method signature="testUpdateCOS()[pri:4, instance:api.test.COSTest@8c3b9d]" started-at="2024-03-07T19:31:27 IST" name="testUpdateCOS" finished-at="2024-03-07T19:31:27 IST" depends-on-methods="api.test.COSTest.testCreateSession" duration-ms="404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateCOS -->
-        <test-method signature="testDeleteCOS()[pri:5, instance:api.test.COSTest@1e66f1f5]" started-at="2024-02-27T16:51:10 IST" name="testDeleteCOS" finished-at="2024-02-27T16:51:11 IST" depends-on-methods="api.test.COSTest.testCreateSession" duration-ms="307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteCOS -->
-        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@1e66f1f5]" started-at="2024-02-27T16:51:10 IST" name="COSInputdata" finished-at="2024-02-27T16:51:10 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="COSInputdata()[pri:0, instance:api.test.COSTest@8c3b9d]" started-at="2024-03-07T19:31:27 IST" name="COSInputdata" finished-at="2024-03-07T19:31:27 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- COSInputdata -->
+        <test-method signature="testDeleteCOS()[pri:5, instance:api.test.COSTest@8c3b9d]" started-at="2024-03-07T19:31:27 IST" name="testDeleteCOS" finished-at="2024-03-07T19:31:28 IST" depends-on-methods="api.test.COSTest.testCreateSession" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCOS -->
       </class> <!-- api.test.COSTest -->
     </test> <!-- RduCURD -->
   </suite> <!-- RESTOperations -->

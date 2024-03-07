@@ -3,15 +3,23 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.test.COSTest">
+      <class name="api.test.ServerOperationTest">
         <methods>
-          <include name="CSInputData"/>
+          <include name="testgetExtenPointSettings"/>
+          <include name="testchangeDetafuls"/>
+          <include name="testGetAllDpes"/>
+          <include name="testgetAllProvGrps"/>
+          <include name="ServerInputdatas"/>
+          <include name="testgetDPEDefaults"/>
+          <include name="testgetDefaults"/>
+          <include name="ChangeDefaultsInputdata"/>
+          <include name="testGetAllCnrs"/>
           <include name="testCreateSession"/>
-          <include name="COSInputdata"/>
-          <include name="testAddCOS"/>
-          <include name="testUpdateCOS"/>
+          <include name="testgetDPEDetails"/>
+          <include name="testgetCNRDetails"/>
+          <include name="CSInputData"/>
         </methods>
-      </class> <!-- api.test.COSTest -->
+      </class> <!-- api.test.ServerOperationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

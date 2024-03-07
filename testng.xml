@@ -11,6 +11,8 @@
     <classes>
       <class name="api.test.RestPWSTest"/>
       <class name="api.test.COSTest"/>
+      <class name="api.test.ServerOperationTest"/>
+      <class name="api.test.SearchTest"/>
       <!-- <class name="api.test.DDTest"/>-->
     </classes>
   </test> <!-- RduCURD -->

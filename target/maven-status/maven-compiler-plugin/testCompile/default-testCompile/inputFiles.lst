@@ -1,11 +1,17 @@
 C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\endpoits\COSOperations.java
 C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\endpoits\MainURL.java
 C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\endpoits\RestPWSOperationEndpoints.java
+C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\endpoits\SearchOperations.java
+C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\endpoits\ServerOperations.java
 C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\payload\COSPayload.java
 C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\payload\RestRdu.java
+C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\payload\SearchOperationPayload.java
+C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\payload\ServerOperationsPayload.java
 C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\test\COSTest.java
 C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\test\DDTest.java
 C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\test\RestPWSTest.java
+C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\test\SearchTest.java
+C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\test\ServerOperationTest.java
 C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\utilities\Dataproviders.java
 C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\utilities\ExtentReportManager.java
 C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\src\test\java\api\utilities\XLUtility.java

@@ -29,7 +29,7 @@ public class COSTest {
 		
 		//payload for createSession
 		rdupayload=new RestRdu();
-		rdupayload.setRduHost("pcp-lnx-124");
+		rdupayload.setRduHost("pcp-dpe-1");
 		rdupayload.setUsername("admin");
 		rdupayload.setPassword("admin123");
 		rdupayload.setRduPort("49188");

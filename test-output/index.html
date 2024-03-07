@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-RESTOperations" class="navigator-link">
-              <span class="suite-name border-passed">RESTOperations</span>
+              <span class="suite-name border-failed">RESTOperations</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">26 methods, 2 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-RESTOperations" class="hide-methods failed suite-RESTOperations"> (hide)</a> <!-- hide-methods failed suite-RESTOperations -->
+                      <a href="#" panel-name="suite-RESTOperations" class="show-methods failed suite-RESTOperations"> (show)</a> <!-- show-methods failed suite-RESTOperations -->
+                    </span>
+                    <div class="method-list-content failed suite-RESTOperations">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.ServerOperationTest" class="method navigator-link" hash-for-method="testgetDPEDefaults">testgetDPEDefaults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.ServerOperationTest" class="method navigator-link" hash-for-method="testgetDPEDetails">testgetDPEDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-RESTOperations -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -113,7 +132,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.SearchTest" class="method navigator-link" hash-for-method="testCOSSearch">testCOSSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.ServerOperationTest" class="method navigator-link" hash-for-method="testCreateSession">testCreateSession</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-RESTOperations" title="api.test.COSTest" class="method navigator-link" hash-for-method="testCreateSession">testCreateSession</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.SearchTest" class="method navigator-link" hash-for-method="testCreateSession">testCreateSession</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -128,6 +162,26 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.SearchTest" class="method navigator-link" hash-for-method="testDhcpSearch">testDhcpSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.SearchTest" class="method navigator-link" hash-for-method="testFileSearch">testFileSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.ServerOperationTest" class="method navigator-link" hash-for-method="testGetAllCnrs">testGetAllCnrs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.ServerOperationTest" class="method navigator-link" hash-for-method="testGetAllDpes">testGetAllDpes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-RESTOperations" title="api.test.COSTest" class="method navigator-link" hash-for-method="testGetCOS">testGetCOS</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -138,12 +192,52 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.SearchTest" class="method navigator-link" hash-for-method="testGroupSearch">testGroupSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.SearchTest" class="method navigator-link" hash-for-method="testSearchDevices">testSearchDevices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-RESTOperations" title="api.test.COSTest" class="method navigator-link" hash-for-method="testUpdateCOS">testUpdateCOS</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-RESTOperations" title="api.test.RestPWSTest" class="method navigator-link" hash-for-method="testUpdateRdu">testUpdateRdu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.ServerOperationTest" class="method navigator-link" hash-for-method="testchangeDetafuls">testchangeDetafuls</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.ServerOperationTest" class="method navigator-link" hash-for-method="testchangeRDUDetafuls">testchangeRDUDetafuls</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.ServerOperationTest" class="method navigator-link" hash-for-method="testgetAllProvGrps">testgetAllProvGrps</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.ServerOperationTest" class="method navigator-link" hash-for-method="testgetCNRDetails">testgetCNRDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.ServerOperationTest" class="method navigator-link" hash-for-method="testgetDefaults">testgetDefaults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTOperations" title="api.test.ServerOperationTest" class="method navigator-link" hash-for-method="testgetExtenPointSettings">testgetExtenPointSettings</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-RESTOperations -->
@@ -158,6 +252,195 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-RESTOperations" class="panel RESTOperations">
+          <div class="suite-RESTOperations-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.test.ServerOperationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testgetDPEDefaults">
+                  </a> <!-- testgetDPEDefaults -->
+                  <span class="method-name">testgetDPEDefaults</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
+	at api.test.ServerOperationTest.testgetDPEDefaults(ServerOperationTest.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testgetDPEDetails">
+                  </a> <!-- testgetDPEDetails -->
+                  <span class="method-name">testgetDPEDetails</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
+	at api.test.ServerOperationTest.testgetDPEDetails(ServerOperationTest.java:144)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RESTOperations-class-failed -->
+          <div class="suite-RESTOperations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.ServerOperationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateSession">
+                  </a> <!-- testCreateSession -->
+                  <span class="method-name">testCreateSession</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllCnrs">
+                  </a> <!-- testGetAllCnrs -->
+                  <span class="method-name">testGetAllCnrs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllDpes">
+                  </a> <!-- testGetAllDpes -->
+                  <span class="method-name">testGetAllDpes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testchangeDetafuls">
+                  </a> <!-- testchangeDetafuls -->
+                  <span class="method-name">testchangeDetafuls</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testchangeRDUDetafuls">
+                  </a> <!-- testchangeRDUDetafuls -->
+                  <span class="method-name">testchangeRDUDetafuls</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testgetAllProvGrps">
+                  </a> <!-- testgetAllProvGrps -->
+                  <span class="method-name">testgetAllProvGrps</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testgetCNRDetails">
+                  </a> <!-- testgetCNRDetails -->
+                  <span class="method-name">testgetCNRDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testgetDefaults">
+                  </a> <!-- testgetDefaults -->
+                  <span class="method-name">testgetDefaults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testgetExtenPointSettings">
+                  </a> <!-- testgetExtenPointSettings -->
+                  <span class="method-name">testgetExtenPointSettings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RESTOperations-class-passed -->
+          <div class="suite-RESTOperations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCOSSearch">
+                  </a> <!-- testCOSSearch -->
+                  <span class="method-name">testCOSSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateSession">
+                  </a> <!-- testCreateSession -->
+                  <span class="method-name">testCreateSession</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDhcpSearch">
+                  </a> <!-- testDhcpSearch -->
+                  <span class="method-name">testDhcpSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFileSearch">
+                  </a> <!-- testFileSearch -->
+                  <span class="method-name">testFileSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGroupSearch">
+                  </a> <!-- testGroupSearch -->
+                  <span class="method-name">testGroupSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchDevices">
+                  </a> <!-- testSearchDevices -->
+                  <span class="method-name">testSearchDevices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RESTOperations-class-passed -->
+          <div class="suite-RESTOperations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.RestPWSTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddRdu">
+                  </a> <!-- testAddRdu -->
+                  <span class="method-name">testAddRdu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteRdu">
+                  </a> <!-- testDeleteRdu -->
+                  <span class="method-name">testDeleteRdu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRdu">
+                  </a> <!-- testGetRdu -->
+                  <span class="method-name">testGetRdu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateRdu">
+                  </a> <!-- testUpdateRdu -->
+                  <span class="method-name">testUpdateRdu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RESTOperations-class-passed -->
           <div class="suite-RESTOperations-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -201,42 +484,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-RESTOperations-class-passed -->
-          <div class="suite-RESTOperations-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">api.test.RestPWSTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAddRdu">
-                  </a> <!-- testAddRdu -->
-                  <span class="method-name">testAddRdu</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDeleteRdu">
-                  </a> <!-- testDeleteRdu -->
-                  <span class="method-name">testDeleteRdu</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetRdu">
-                  </a> <!-- testGetRdu -->
-                  <span class="method-name">testGetRdu</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testUpdateRdu">
-                  </a> <!-- testUpdateRdu -->
-                  <span class="method-name">testUpdateRdu</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-RESTOperations-class-passed -->
         </div> <!-- panel RESTOperations -->
         <div panel-name="test-xml-RESTOperations" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -254,6 +501,8 @@
     &lt;classes&gt;
       &lt;class name=&quot;api.test.RestPWSTest&quot;/&gt;
       &lt;class name=&quot;api.test.COSTest&quot;/&gt;
+      &lt;class name=&quot;api.test.ServerOperationTest&quot;/&gt;
+      &lt;class name=&quot;api.test.SearchTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- RduCURD --&gt;
 &lt;/suite&gt; &lt;!-- RESTOperations --&gt;
@@ -267,7 +516,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">RduCURD (2 classes)</span>
+                <span class="test-name">RduCURD (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -293,48 +542,116 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(26);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testAddRdu')
 data.setCell(0, 2, 'api.test.RestPWSTest')
-data.setCell(0, 3, 2233);
+data.setCell(0, 3, 2699);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testCreateSession')
 data.setCell(1, 2, 'api.test.COSTest')
-data.setCell(1, 3, 712);
+data.setCell(1, 3, 746);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testUpdateRdu')
-data.setCell(2, 2, 'api.test.RestPWSTest')
-data.setCell(2, 3, 444);
+data.setCell(2, 1, 'testDeleteCOS')
+data.setCell(2, 2, 'api.test.COSTest')
+data.setCell(2, 3, 598);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testUpdateCOS')
 data.setCell(3, 2, 'api.test.COSTest')
-data.setCell(3, 3, 284);
+data.setCell(3, 3, 553);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testDeleteCOS')
-data.setCell(4, 2, 'api.test.COSTest')
-data.setCell(4, 3, 264);
+data.setCell(4, 1, 'testUpdateRdu')
+data.setCell(4, 2, 'api.test.RestPWSTest')
+data.setCell(4, 3, 466);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testGetRdu')
-data.setCell(5, 2, 'api.test.RestPWSTest')
-data.setCell(5, 3, 183);
+data.setCell(5, 1, 'testGroupSearch')
+data.setCell(5, 2, 'api.test.SearchTest')
+data.setCell(5, 3, 459);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testAddCOS')
-data.setCell(6, 2, 'api.test.COSTest')
-data.setCell(6, 3, 160);
+data.setCell(6, 1, 'testGetAllCnrs')
+data.setCell(6, 2, 'api.test.ServerOperationTest')
+data.setCell(6, 3, 392);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testGetCOS')
-data.setCell(7, 2, 'api.test.COSTest')
-data.setCell(7, 3, 155);
+data.setCell(7, 1, 'testDhcpSearch')
+data.setCell(7, 2, 'api.test.SearchTest')
+data.setCell(7, 3, 320);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testDeleteRdu')
+data.setCell(8, 1, 'testGetRdu')
 data.setCell(8, 2, 'api.test.RestPWSTest')
-data.setCell(8, 3, 128);
+data.setCell(8, 3, 316);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testAddCOS')
+data.setCell(9, 2, 'api.test.COSTest')
+data.setCell(9, 3, 307);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testchangeRDUDetafuls')
+data.setCell(10, 2, 'api.test.ServerOperationTest')
+data.setCell(10, 3, 297);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testchangeDetafuls')
+data.setCell(11, 2, 'api.test.ServerOperationTest')
+data.setCell(11, 3, 296);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testgetAllProvGrps')
+data.setCell(12, 2, 'api.test.ServerOperationTest')
+data.setCell(12, 3, 262);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCreateSession')
+data.setCell(13, 2, 'api.test.ServerOperationTest')
+data.setCell(13, 3, 245);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testgetCNRDetails')
+data.setCell(14, 2, 'api.test.ServerOperationTest')
+data.setCell(14, 3, 231);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCreateSession')
+data.setCell(15, 2, 'api.test.SearchTest')
+data.setCell(15, 3, 229);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testgetDPEDetails')
+data.setCell(16, 2, 'api.test.ServerOperationTest')
+data.setCell(16, 3, 217);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testGetAllDpes')
+data.setCell(17, 2, 'api.test.ServerOperationTest')
+data.setCell(17, 3, 216);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testgetDPEDefaults')
+data.setCell(18, 2, 'api.test.ServerOperationTest')
+data.setCell(18, 3, 209);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testgetDefaults')
+data.setCell(19, 2, 'api.test.ServerOperationTest')
+data.setCell(19, 3, 208);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testGetCOS')
+data.setCell(20, 2, 'api.test.COSTest')
+data.setCell(20, 3, 201);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testDeleteRdu')
+data.setCell(21, 2, 'api.test.RestPWSTest')
+data.setCell(21, 3, 182);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testCOSSearch')
+data.setCell(22, 2, 'api.test.SearchTest')
+data.setCell(22, 3, 173);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testgetExtenPointSettings')
+data.setCell(23, 2, 'api.test.ServerOperationTest')
+data.setCell(23, 3, 156);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testSearchDevices')
+data.setCell(24, 2, 'api.test.SearchTest')
+data.setCell(24, 3, 154);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testFileSearch')
+data.setCell(25, 2, 'api.test.SearchTest')
+data.setCell(25, 3, 130);
 window.suiteTableData['RESTOperations']= { tableData: data, tableDiv: 'times-div-RESTOperations'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-RESTOperations">
               </div> <!-- times-div-RESTOperations -->
             </div> <!-- times-div -->
@@ -367,67 +684,221 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testAddRdu</span>
-                <span class="method-start">860 ms</span>
+                <span class="method-start">612 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetRdu</span>
-                <span class="method-start">3119 ms</span>
+                <span class="method-start">3375 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateRdu</span>
-                <span class="method-start">3309 ms</span>
+                <span class="method-start">3698 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteRdu</span>
-                <span class="method-start">3756 ms</span>
+                <span class="method-start">4168 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">api.test.COSTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">CSInputData</span>
-                <span class="method-start">3887 ms</span>
+                <span class="method-start">4358 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">COSInputdata</span>
-                <span class="method-start">3890 ms</span>
+                <span class="method-start">4363 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateSession</span>
-                <span class="method-start">3893 ms</span>
+                <span class="method-start">4402 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">COSInputdata</span>
-                <span class="method-start">4610 ms</span>
+                <span class="method-start">5154 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testAddCOS</span>
-                <span class="method-start">4611 ms</span>
+                <span class="method-start">5155 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">COSInputdata</span>
-                <span class="method-start">4779 ms</span>
+                <span class="method-start">5469 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetCOS</span>
-                <span class="method-start">4782 ms</span>
+                <span class="method-start">5470 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">COSInputdata</span>
-                <span class="method-start">4942 ms</span>
+                <span class="method-start">5678 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testUpdateCOS</span>
-                <span class="method-start">4942 ms</span>
+                <span class="method-start">5679 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">COSInputdata</span>
-                <span class="method-start">5231 ms</span>
+                <span class="method-start">6240 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeleteCOS</span>
-                <span class="method-start">5232 ms</span>
+                <span class="method-start">6241 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.ServerOperationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">CSInputData</span>
+                <span class="method-start">6842 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">ServerInputdatas</span>
+                <span class="method-start">6844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateSession</span>
+                <span class="method-start">6847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ServerInputdatas</span>
+                <span class="method-start">7099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllCnrs</span>
+                <span class="method-start">7100 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ServerInputdatas</span>
+                <span class="method-start">7499 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllDpes</span>
+                <span class="method-start">7501 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ServerInputdatas</span>
+                <span class="method-start">7724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testgetAllProvGrps</span>
+                <span class="method-start">7725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ServerInputdatas</span>
+                <span class="method-start">7993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testgetCNRDetails</span>
+                <span class="method-start">7994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ServerInputdatas</span>
+                <span class="method-start">8228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testgetDefaults</span>
+                <span class="method-start">8229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ServerInputdatas</span>
+                <span class="method-start">8444 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testgetDPEDefaults</span>
+                <span class="method-start">8445 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ServerInputdatas</span>
+                <span class="method-start">8669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testgetDPEDetails</span>
+                <span class="method-start">8670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ServerInputdatas</span>
+                <span class="method-start">8891 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testgetExtenPointSettings</span>
+                <span class="method-start">8892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ServerInputdatas</span>
+                <span class="method-start">9053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testchangeDetafuls</span>
+                <span class="method-start">9054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ServerInputdatas</span>
+                <span class="method-start">9358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testchangeRDUDetafuls</span>
+                <span class="method-start">9359 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">CSInputData</span>
+                <span class="method-start">9658 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">COSInputdatas</span>
+                <span class="method-start">9660 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateSession</span>
+                <span class="method-start">9662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCOSSearch</span>
+                <span class="method-start">9894 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">COSInputdatas</span>
+                <span class="method-start">9894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">COSInputdatas</span>
+                <span class="method-start">10072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDhcpSearch</span>
+                <span class="method-start">10073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">COSInputdatas</span>
+                <span class="method-start">10395 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFileSearch</span>
+                <span class="method-start">10396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">COSInputdatas</span>
+                <span class="method-start">10530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGroupSearch</span>
+                <span class="method-start">10530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchDevices</span>
+                <span class="method-start">10992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">COSInputdatas</span>
+                <span class="method-start">10992 ms</span>
+              </div> <!-- configuration-method before -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

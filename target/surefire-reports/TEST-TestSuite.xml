@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.451" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="10.364" tests="26" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\manirrat\AppData\Local\Temp\surefire15126180072606721975\surefirebooter-20240227165103202_3.jar C:\Users\manirrat\AppData\Local\Temp\surefire15126180072606721975 2024-02-27T16-51-03_037-jvmRun1 surefire-20240227165103202_1tmp surefire_0-20240227165103202_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\manirrat\AppData\Local\Temp\surefire8300707630351788616\surefirebooter-20240307193121559_3.jar C:\Users\manirrat\AppData\Local\Temp\surefire8300707630351788616 2024-03-07T19-31-21_415-jvmRun1 surefire-20240307193121559_1tmp surefire_0-20240307193121559_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\target\test-classes;C:\Users\manirrat\eclipse-workspace\PCP-RESTPWS\target\classes;C:\Users\manirrat\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\manirrat\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\manirrat\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\manirrat\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\manirrat\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\manirrat\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\manirrat\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\manirrat\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\manirrat\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\manirrat\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\manirrat\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\manirrat\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\manirrat\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\manirrat\.m2\repository\io\rest-assured\json-schema-validator\5.3.2\json-schema-validator-5.3.2.jar;C:\Users\manirrat\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\manirrat\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\manirrat\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\manirrat\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\manirrat\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\manirrat\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\manirrat\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\manirrat\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\manirrat\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\manirrat\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\manirrat\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\manirrat\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\manirrat\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\manirrat\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\manirrat\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\manirrat\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\manirrat\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\manirrat\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\manirrat\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\manirrat\.m2\repository\org\apache\cxf\cxf-xerces-xsd-validation\2.7.18\cxf-xerces-xsd-validation-2.7.18.jar;C:\Users\manirrat\.m2\repository\org\apache\cxf\cxf-api\2.7.18\cxf-api-2.7.18.jar;C:\Users\manirrat\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar;C:\Users\manirrat\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\manirrat\.m2\repository\org\apache\geronimo\specs\geronimo-javamail_1.4_spec\1.7.1\geronimo-javamail_1.4_spec-1.7.1.jar;C:\Users\manirrat\.m2\repository\wsdl4j\wsdl4j\1.6.3\wsdl4j-1.6.3.jar;C:\Users\manirrat\.m2\repository\org\apache\geronimo\specs\geronimo-annotation_1.0_spec\1.1.1\geronimo-annotation_1.0_spec-1.1.1.jar;C:\Users\manirrat\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.1.0\xmlschema-core-2.1.0.jar;C:\Users\manirrat\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\manirrat\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\manirrat\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\manirrat\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\manirrat\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\manirrat\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\manirrat\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\manirrat\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\manirrat\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\manirrat\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\manirrat\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\manirrat\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\manirrat\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\manirrat\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\manirrat\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\manirrat\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\manirrat\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\manirrat\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\manirrat\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\manirrat\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\manirrat\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\manirrat\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\manirrat\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\manirrat\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\manirrat\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\manirrat\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\manirrat\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\manirrat\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\manirrat\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\manirrat\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\manirrat\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\manirrat\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\manirrat\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\manirrat\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\manirrat\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\manirrat\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.0\log4j-api-2.23.0.jar;C:\Users\manirrat\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.0\log4j-core-2.23.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\manirrat\AppData\Local\Temp\surefire15126180072606721975\surefirebooter-20240227165103202_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\manirrat\AppData\Local\Temp\surefire8300707630351788616\surefirebooter-20240307193121559_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -51,7 +51,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Users\manirrat\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Users\manirrat\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -59,8 +59,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testAddRdu" classname="api.test.RestPWSTest" time="2.636">
-    <system-out><![CDATA[16:51:06.159 [main] INFO  api.test.RestPWSTest - ******Adding RDU***********
+  <testcase name="testAddRdu" classname="api.test.RestPWSTest" time="1.966">
+    <system-out><![CDATA[19:31:23.080 [main] INFO  api.test.RestPWSTest - ******Adding RDU***********
 HTTP/1.1 201 
 Strict-Transport-Security: max-age=0
 X-Frame-Options: DENY
@@ -69,7 +69,7 @@ Location: /cp-ws-rest-prov/RDU
 success: RDU Details added succcessfully : pcp-lnx-92
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Mon, 26 Feb 2024 21:55:58 GMT
+Date: Thu, 07 Mar 2024 13:53:03 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -79,22 +79,22 @@ Connection: keep-alive
     "rduHost": "pcp-lnx-92",
     "rduPort": 49188
 }
-16:51:08.779 [main] INFO  api.test.RestPWSTest - ******RDU Added ***********
+19:31:25.035 [main] INFO  api.test.RestPWSTest - ******RDU Added ***********
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testGetRdu" classname="api.test.RestPWSTest" time="0.16">
-    <system-out><![CDATA[16:51:08.791 [main] INFO  api.test.RestPWSTest - ******Get RDU***********
+  <testcase name="testGetRdu" classname="api.test.RestPWSTest" time="0.208">
+    <system-out><![CDATA[19:31:25.046 [main] INFO  api.test.RestPWSTest - ******Get RDU***********
 HTTP/1.1 200 
 Strict-Transport-Security: max-age=0
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Mon, 26 Feb 2024 21:55:58 GMT
+Date: Thu, 07 Mar 2024 13:53:03 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -108,19 +108,19 @@ Connection: keep-alive
     {
         "username": "admin",
         "password": "admin123",
-        "rduHost": "pcp-lnx-124.cisco.com",
+        "rduHost": "pcp-dpe-1.cisco.com",
         "rduPort": 49188
     }
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateRdu" classname="api.test.RestPWSTest" time="0.353">
-    <system-out><![CDATA[16:51:08.955 [main] INFO  api.test.RestPWSTest - ******Update RDU***********
+  <testcase name="testUpdateRdu" classname="api.test.RestPWSTest" time="0.545">
+    <system-out><![CDATA[19:31:25.267 [main] INFO  api.test.RestPWSTest - ******Update RDU***********
 HTTP/1.1 204 
 Strict-Transport-Security: max-age=0
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
-Date: Mon, 26 Feb 2024 21:55:58 GMT
+Date: Thu, 07 Mar 2024 13:53:03 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 HTTP/1.1 200 
@@ -129,7 +129,7 @@ X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Mon, 26 Feb 2024 21:55:58 GMT
+Date: Thu, 07 Mar 2024 13:53:03 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -143,62 +143,62 @@ Connection: keep-alive
     {
         "username": "admin",
         "password": "admin123",
-        "rduHost": "pcp-lnx-124.cisco.com",
+        "rduHost": "pcp-dpe-1.cisco.com",
         "rduPort": 49188
     }
 ]
-16:51:09.308 [main] INFO  api.test.RestPWSTest - ******Updated RDU Details***********
+19:31:25.811 [main] INFO  api.test.RestPWSTest - ******Updated RDU Details***********
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteRdu" classname="api.test.RestPWSTest" time="0.124">
-    <system-out><![CDATA[16:51:09.313 [main] INFO  api.test.RestPWSTest - ******Delete RDU***********
+  <testcase name="testDeleteRdu" classname="api.test.RestPWSTest" time="0.202">
+    <system-out><![CDATA[19:31:25.813 [main] INFO  api.test.RestPWSTest - ******Delete RDU***********
 HTTP/1.1 204 
 Strict-Transport-Security: max-age=0
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
-Date: Mon, 26 Feb 2024 21:55:58 GMT
+Date: Thu, 07 Mar 2024 13:53:04 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
-16:51:09.437 [main] INFO  api.test.RestPWSTest - ******Deleted RDU***********
+19:31:26.014 [main] INFO  api.test.RestPWSTest - ******Deleted RDU***********
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateSession" classname="api.test.COSTest" time="0.84">
-    <system-out><![CDATA[16:51:09.446 [main] INFO  api.test.COSTest - ************* Creating Session **********
+  <testcase name="testCreateSession" classname="api.test.COSTest" time="0.815">
+    <system-out><![CDATA[19:31:26.023 [main] INFO  api.test.COSTest - ************* Creating Session **********
 HTTP/1.1 200 
 Strict-Transport-Security: max-age=0
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Mon, 26 Feb 2024 21:55:58 GMT
+Date: Thu, 07 Mar 2024 13:53:04 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "sessionId": "110DC1BD2552B7F1AD810C2BA2B801D2A17FF37A"
+    "sessionId": "7ACCED58872F90419116FAC8A422C589AF78FAA6"
 }
-16:51:10.285 [main] INFO  api.test.COSTest - *************  Session Created **********
+19:31:26.837 [main] INFO  api.test.COSTest - *************  Session Created **********
 ]]></system-out>
   </testcase>
-  <testcase name="testAddCOS" classname="api.test.COSTest" time="0.149">
+  <testcase name="testAddCOS" classname="api.test.COSTest" time="0.2">
     <system-out><![CDATA[HTTP/1.1 200 
 Strict-Transport-Security: max-age=0
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Mon, 26 Feb 2024 21:55:59 GMT
+Date: Thu, 07 Mar 2024 13:53:05 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "operationId": "61b81a80-4256-4923-8491-5f6a68c5aef3",
+    "operationId": "63a9a0a6-831c-4dae-8774-9fc8eeffa33a",
     "code": "SUCCESS",
     "message": "Operation successful",
     "subStatus": {
         "statusList": [
             {
-                "txId": "Batch:pcp-lnx-125.cisco.com/10.78.109.33:64e25776:18dcc3d7169:8000008c",
+                "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:80000146",
                 "cmdCodes": [
                     {
                         "index": 0,
@@ -213,18 +213,18 @@ Connection: keep-alive
         ]
     }
 }
-16:51:10.436 [main] INFO  api.test.COSTest - ************* COS ADDED SUCCESSFULLY  **********
+19:31:27.040 [main] INFO  api.test.COSTest - ************* COS ADDED SUCCESSFULLY  **********
 ]]></system-out>
   </testcase>
-  <testcase name="testGetCOS" classname="api.test.COSTest" time="0.146">
-    <system-out><![CDATA[16:51:10.440 [main] INFO  api.test.COSTest - ************* GET COS Details  **********
+  <testcase name="testGetCOS" classname="api.test.COSTest" time="0.204">
+    <system-out><![CDATA[19:31:27.045 [main] INFO  api.test.COSTest - ************* GET COS Details  **********
 HTTP/1.1 200 
 Strict-Transport-Security: max-age=0
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Mon, 26 Feb 2024 21:55:59 GMT
+Date: Thu, 07 Mar 2024 13:53:05 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -238,17 +238,17 @@ Connection: keep-alive
             "/fqdn/domain": "cisco.com",
             "/fqdn/auto/enable": "true",
             "/cos/docsis/file": "gold.cm",
-            "/generic/oidRevisionNumber": "1873497449281093756-1708984561001"
+            "/generic/oidRevisionNumber": "1873497453576061037-1709819585001"
         }
     },
     "operationStatus": {
-        "operationId": "4bbd137d-a93a-424c-bedd-ce87311ba63f",
+        "operationId": "664e1cdb-4cce-420b-bced-6352d7811414",
         "code": "SUCCESS",
         "message": "Operation successful",
         "subStatus": {
             "statusList": [
                 {
-                    "txId": "Batch:pcp-lnx-125.cisco.com/10.78.109.33:64e25776:18dcc3d7169:8000008e",
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:80000148",
                     "cmdCodes": [
                         {
                             "index": 0,
@@ -266,25 +266,25 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateCOS" classname="api.test.COSTest" time="0.26">
+  <testcase name="testUpdateCOS" classname="api.test.COSTest" time="0.404">
     <system-out><![CDATA[HTTP/1.1 200 
 Strict-Transport-Security: max-age=0
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Mon, 26 Feb 2024 21:55:59 GMT
+Date: Thu, 07 Mar 2024 13:53:05 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "operationId": "0045cf70-2f6c-490f-8375-fd79e46b2942",
+    "operationId": "faca4dbf-60f7-4bb7-8629-1a40f655bdcc",
     "code": "SUCCESS",
     "message": "Operation successful",
     "subStatus": {
         "statusList": [
             {
-                "txId": "Batch:pcp-lnx-125.cisco.com/10.78.109.33:64e25776:18dcc3d7169:80000090",
+                "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:8000014a",
                 "cmdCodes": [
                     {
                         "index": 0,
@@ -299,15 +299,15 @@ Connection: keep-alive
         ]
     }
 }
-16:51:10.742 [main] INFO  api.test.COSTest - ************* UPDATED COS Details  **********
-16:51:10.742 [main] INFO  api.test.COSTest - ************* GET COS Details after successful Update **********
+19:31:27.499 [main] INFO  api.test.COSTest - ************* UPDATED COS Details  **********
+19:31:27.499 [main] INFO  api.test.COSTest - ************* GET COS Details after successful Update **********
 HTTP/1.1 200 
 Strict-Transport-Security: max-age=0
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Mon, 26 Feb 2024 21:55:59 GMT
+Date: Thu, 07 Mar 2024 13:53:05 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -321,17 +321,17 @@ Connection: keep-alive
             "/fqdn/domain": "mani.com",
             "/fqdn/auto/enable": "true",
             "/cos/docsis/file": "gold.cm",
-            "/generic/oidRevisionNumber": "1873497449281093756-1708984561002"
+            "/generic/oidRevisionNumber": "1873497453576061037-1709819586000"
         }
     },
     "operationStatus": {
-        "operationId": "079eef40-10e2-46bd-a3f6-cc63b86125cd",
+        "operationId": "c579919c-4e28-4f04-a353-bd3443434c20",
         "code": "SUCCESS",
         "message": "Operation successful",
         "subStatus": {
             "statusList": [
                 {
-                    "txId": "Batch:pcp-lnx-125.cisco.com/10.78.109.33:64e25776:18dcc3d7169:80000092",
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:8000014c",
                     "cmdCodes": [
                         {
                             "index": 0,
@@ -349,25 +349,25 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteCOS" classname="api.test.COSTest" time="0.308">
+  <testcase name="testDeleteCOS" classname="api.test.COSTest" time="0.412">
     <system-out><![CDATA[HTTP/1.1 200 
 Strict-Transport-Security: max-age=0
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Mon, 26 Feb 2024 21:55:59 GMT
+Date: Thu, 07 Mar 2024 13:53:05 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "operationId": "abc4fd1c-f8ec-47ac-a73d-c1ab96f6780c",
+    "operationId": "2446a7ef-01ef-44ef-809f-3ba80a7097bb",
     "code": "SUCCESS",
     "message": "Operation successful",
     "subStatus": {
         "statusList": [
             {
-                "txId": "Batch:pcp-lnx-125.cisco.com/10.78.109.33:64e25776:18dcc3d7169:80000094",
+                "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:8000014e",
                 "cmdCodes": [
                     {
                         "index": 0,
@@ -382,14 +382,14 @@ Connection: keep-alive
         ]
     }
 }
-16:51:11.039 [main] INFO  api.test.COSTest - ************* COS DELETED SUCCESSFULLY  **********
+19:31:27.856 [main] INFO  api.test.COSTest - ************* COS DELETED SUCCESSFULLY  **********
 HTTP/1.1 404 
 Strict-Transport-Security: max-age=0
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Mon, 26 Feb 2024 21:55:59 GMT
+Date: Thu, 07 Mar 2024 13:53:05 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -397,13 +397,13 @@ Connection: keep-alive
     "status": "Prov Service Exception",
     "errorMessage": "Class of Service [testCOS8] is not in database.",
     "operationStatus": {
-        "operationId": "102b83cc-5002-4679-b0b3-196764d63cb8",
+        "operationId": "0b202b91-f78c-48b5-9ac5-3ee83cab8745",
         "code": "FAILURE",
         "message": "Class of Service [testCOS8] is not in database.",
         "subStatus": {
             "statusList": [
                 {
-                    "txId": "Batch:pcp-lnx-125.cisco.com/10.78.109.33:64e25776:18dcc3d7169:80000096",
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:80000150",
                     "cmdCodes": [
                         {
                             "index": 0,
@@ -419,7 +419,906 @@ Connection: keep-alive
         }
     }
 }
-16:51:11.199 [main] INFO  api.test.COSTest - ************* THE DELETED COS IS NOT IN DB  **********
+19:31:28.068 [main] INFO  api.test.COSTest - ************* THE DELETED COS IS NOT IN DB  **********
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateSession" classname="api.test.ServerOperationTest" time="0.306">
+    <system-out><![CDATA[HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "sessionId": "11E1DB92CE4AAB50D8F6CAA309E1355DB4B0106E"
+}
+19:31:28.385 [main] INFO  api.test.ServerOperationTest - *************  Session created **********
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAllCnrs" classname="api.test.ServerOperationTest" time="0.185">
+    <system-out><![CDATA[19:31:28.387 [main] INFO  api.test.ServerOperationTest - ************* All CNRs Details **********
+HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "operationStatus": {
+        "operationId": "f42235ec-4454-4129-9f49-701494760024",
+        "code": "SUCCESS",
+        "message": "Operation successful",
+        "subStatus": {
+            "statusList": [
+                {
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:80000153",
+                    "cmdCodes": [
+                        {
+                            "index": 0,
+                            "code": "CMD_OK",
+                            "message": null
+                        }
+                    ],
+                    "code": "CMD_OK",
+                    "batchCode": "BATCH_COMPLETED",
+                    "message": null
+                }
+            ]
+        }
+    },
+    "cnrsList": [
+        "pcp-db-9.cisco.com",
+        "pcp-dpe-2.cisco.com"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAllDpes" classname="api.test.ServerOperationTest" time="0.153">
+    <system-out><![CDATA[19:31:28.576 [main] INFO  api.test.ServerOperationTest - ************* All DPEs Details**********
+HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "operationStatus": {
+        "operationId": "e817c8d6-e1c7-4d43-8fe7-937946294f93",
+        "code": "SUCCESS",
+        "message": "Operation successful",
+        "subStatus": {
+            "statusList": [
+                {
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:80000155",
+                    "cmdCodes": [
+                        {
+                            "index": 0,
+                            "code": "CMD_OK",
+                            "message": null
+                        }
+                    ],
+                    "code": "CMD_OK",
+                    "batchCode": "BATCH_COMPLETED",
+                    "message": null
+                }
+            ]
+        }
+    },
+    "dpesList": [
+        "dpePod:pcp-k8s-41.cisco.com:dpe-app-deployment-5bfdd957b7-bdkqc"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testgetAllProvGrps" classname="api.test.ServerOperationTest" time="0.151">
+    <system-out><![CDATA[19:31:28.730 [main] INFO  api.test.ServerOperationTest - ************* All Prov Groups Details **********
+HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "provGroupsList": [
+        "default"
+    ],
+    "operationStatus": {
+        "operationId": "0e6f743d-9ca6-4995-89e5-d66ea930ec98",
+        "code": "SUCCESS",
+        "message": "Operation successful",
+        "subStatus": {
+            "statusList": [
+                {
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:80000157",
+                    "cmdCodes": [
+                        {
+                            "index": 0,
+                            "code": "CMD_OK",
+                            "message": null
+                        }
+                    ],
+                    "code": "CMD_OK",
+                    "batchCode": "BATCH_COMPLETED",
+                    "message": null
+                }
+            ]
+        }
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testgetCNRDetails" classname="api.test.ServerOperationTest" time="0.205">
+    <system-out><![CDATA[19:31:28.883 [main] INFO  api.test.ServerOperationTest - ************* CNR Detail **********
+HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "cnrDetails": {
+        "chEnable": "true",
+        "cnr": {
+            "/cnr/cache/hits": 144,
+            "/cnr/state": "Ready",
+            "/cnr/uptime": 24698000,
+            "/cnr/version": "BAC 7.3 (BAC_LNX_7_3_0-64_20240226_1519_130)",
+            "/cnr/pkt/v6/dropped": 0,
+            "/cnr/pkt/success": 0,
+            "/cnr/cache/v6/misses": 0,
+            "/cnr/provgrp": "default",
+            "/cnr/ipAddress": [
+                "10.78.109.186",
+                "2001:420:54ff:13:0:0:458:ba",
+                "192.168.122.1",
+                "fe80:0:0:0:250:56ff:fea9:b826"
+            ],
+            "/cnr/pkt/received": 6888,
+            "/cnr/properties": {
+                
+            },
+            "/cnr/dpesStatus": "pcp-k8s-41.cisco.com (10.78.109.202);49186;P;Ready",
+            "/cnr/pkt/v6/received": 0,
+            "/cnr/pkt/v6/success": 0,
+            "/cnr/secureCommToRdu/enabled": true,
+            "/cnr/cache/v6/hits": 0,
+            "/cnr/pkt/dropped": 6888,
+            "/cnr/cache/misses": 6744,
+            "/cnr/pkt/v6/failed": 0,
+            "/cnr/assignedDomain": "RootDomain",
+            "/cnr/pkt/ignored": 0,
+            "/cnr/pkt/failed": 0,
+            "/cnr/pkt/v6/ignored": 0,
+            "/cnr/hostID": "pcp-dpe-2.cisco.com"
+        },
+        "cnrProperties": {
+            
+        },
+        "erouter": {
+            "/erouter/enable/dnslist": true,
+            "/erouter/enable": true,
+            "/erouter/enable/v6": true
+        },
+        "genericOidRevisionNumber": "720575940379279768-1709794890000",
+        "pktcbl": {
+            "/pktcbl/enable": true,
+            "/pktcbl/enable/v6": true
+        },
+        "registeredCapabilities": {
+            "/provgroup/capability/both/packetcable/ipv6": true,
+            "/provgroup/capability/both/cablehome/ipv4": true,
+            "/provgroup/capability/both/erouter/ipv4": true,
+            "/provgroup/capability/both/dhcpconfig[4.0]": true,
+            "/provgroup/capability/both/erouter/ipv6": true,
+            "/provgroup/capability/cnr_ep/dhcpv6": true,
+            "/provgroup/capability/cnr_ep/dhcpv4": true,
+            "/provgroup/capability/both/dexapi[2]": true,
+            "/provgroup/capability/both/rpd/ipv6": true,
+            "/provgroup/capability/both/rpd/ipv4": true,
+            "/provgroup/capability/both/packetcable/ipv4": true,
+            "/provgroup/capability/both/erouter/dnslist": true,
+            "/provgroup/capability/both/statistics/request/async": true
+        }
+    },
+    "operationStatus": {
+        "operationId": "c18497d1-8a9b-4812-beea-5c583b24ce95",
+        "code": "SUCCESS",
+        "message": "Operation successful",
+        "subStatus": {
+            "statusList": [
+                {
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:80000159",
+                    "cmdCodes": [
+                        {
+                            "index": 0,
+                            "code": "CMD_OK",
+                            "message": null
+                        }
+                    ],
+                    "code": "CMD_OK",
+                    "batchCode": "BATCH_COMPLETED",
+                    "message": null
+                }
+            ]
+        }
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testgetDefaults" classname="api.test.ServerOperationTest" time="0.313">
+    <system-out><![CDATA[19:31:29.090 [main] INFO  api.test.ServerOperationTest - ************* Defaults Details**********
+HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "deviceDefaults": {
+        "docsisProperties": {
+            "/docsis/version/strictMode/enable": true,
+            "/docsis/extendedCmtsMIC/SharedSecret": "cisco",
+            "/docsis/cmts/version/giaddrToVersionMap": "",
+            "/docsis/cmts/version/default": "2.0",
+            "/docsis/extendedCmtsMIC/Enabled": false,
+            "/docsis/extendedCmtsMIC/DigestExplicit/Enabled": true,
+            "/docsis/extendedCmtsMIC/fields": "1, 2, 3, 4, 17, 18, 19, 20, 22, 23, 24, 25, 28, 29, 26, 35, 36, 37, 40",
+            "/docsis/cmtsMicSharedSecret": "cisco",
+            "/docsis/cmtsMicEnabled": true,
+            "/docsis/cm/version/default": "1.0",
+            "/docsis/sample/silver/classOfService": "sample-silver-docsis",
+            "/docsis/sample/bronze/classOfService": "sample-bronze-docsis",
+            "/docsis/sample/gold/classOfService": "sample-gold-docsis",
+            "/docsis/extendedCmtsMIC/HMACType": "MD5",
+            "/docsis/tftpModemAddressOptionEnabled": false,
+            "/docsis/tftpTimestampOptionEnabled": false
+        },
+        "ipDeviceProperties": {
+            "/IPDevice/validateClientId": false,
+            "/IPDevice/extendedFilenameScript": "",
+            "/IPDevice/useValidatePrefixForDHCPClassIdentifier": true,
+            "/IPDevice/useValidateContinueForCableLabsRelayVendorOption/dhcpv6": false,
+            "/IPDevice/validateClientIdCreatedFromMacAddress": false,
+            "/IPDevice/useValidateContinueForCableLabsCMTSCapabilities/dhcpv6": false,
+            "/IPDevice/validateCableLabsSoftwareVersion/dhcpv6": false,
+            "/IPDevice/useValidateContinueForCableLabsCMTSVersion/dhcpv4": false,
+            "/IPDevice/validateVendorClass": false,
+            "/IPDevice/validateCableLabsCMTSVersion/dhcpv4": false,
+            "/IPDevice/useValidateContinueForRelayAgentInfo": false,
+            "/IPDevice/validateCableLabsCMTSCapabilities/dhcpv6": false,
+            "/IPDevice/validateRelayAgentInfo": false,
+            "/IPDevice/validateDHCPClassIdentifier": false,
+            "/IPDevice/validateDHCPParameterRequestList": false,
+            "/IPDevice/validateCableLabsRelayVendorOption/dhcpv6": false,
+            "/IPDevice/validateCableLabsSoftwareVersion/dhcpv4": false
+        },
+        "extensionPointProperties": {
+            "/extensionPoint/configurationGeneration": "com.cisco.provisioning.cpe.extensions.builtin.generation.DocsisModemGeneration",
+            "/extensionPoint/activation": "com.cisco.provisioning.cpe.extensions.builtin.disruption.DocsisModemDisruption",
+            "/extensionPoint/serviceLevelSelection": "com.cisco.provisioning.cpe.extensions.builtin.selection.DocsisModemSelection"
+        },
+        "pktcblProperties": {
+            "/pktcbl/ipPreference": 0,
+            "/pktcbl/dssid/processing/enable": false
+        },
+        "erouter": {
+            
+        },
+        "packetCableMTAProperties": {
+            
+        },
+        "fqdn": {
+            "/fqdn/auto/enable": false
+        },
+        "defaultProperties": {
+            "/default/dhcpCriteria": "unprovisioned-docsis",
+            "/default/classOfService": "unprovisioned-docsis"
+        }
+    },
+    "operationStatus": {
+        "operationId": "6af3d442-b9a7-4f45-bc84-f89aa0933c89",
+        "code": "SUCCESS",
+        "message": "Operation successful",
+        "subStatus": {
+            "statusList": [
+                {
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:8000015b",
+                    "cmdCodes": [
+                        {
+                            "index": 0,
+                            "code": "CMD_OK",
+                            "message": null
+                        }
+                    ],
+                    "code": "CMD_OK",
+                    "batchCode": "BATCH_COMPLETED",
+                    "message": null
+                }
+            ]
+        }
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testgetDPEDefaults" classname="api.test.ServerOperationTest" time="0.157">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at api.test.ServerOperationTest.testgetDPEDefaults(ServerOperationTest.java:132)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[19:31:29.406 [main] INFO  api.test.ServerOperationTest - ************* DPE Defaults Details **********
+HTTP/1.1 404 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "status": "Prov Service Exception",
+    "errorMessage": "Host ID of DPE unknown.",
+    "operationStatus": {
+        "operationId": "bd80616c-7762-4666-b1ea-70a9d495e9b7",
+        "code": "FAILURE",
+        "message": "Host ID of DPE unknown.",
+        "subStatus": {
+            "statusList": [
+                {
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:8000015d",
+                    "cmdCodes": [
+                        {
+                            "index": 0,
+                            "code": "CMD_ERROR_DPE_UNKNOWN",
+                            "message": "Host ID of DPE unknown."
+                        }
+                    ],
+                    "code": "CMD_ERROR_DPE_UNKNOWN",
+                    "batchCode": "BATCH_FAILED_QUERY",
+                    "message": "Error occurred during query. See the failed CommandStatus for details."
+                }
+            ]
+        }
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testgetDPEDetails" classname="api.test.ServerOperationTest" time="0.221">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at api.test.ServerOperationTest.testgetDPEDetails(ServerOperationTest.java:144)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[19:31:29.566 [main] INFO  api.test.ServerOperationTest - ************* DPE Details **********
+HTTP/1.1 404 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "status": "Prov Service Exception",
+    "errorMessage": "Host ID of DPE unknown.",
+    "operationStatus": {
+        "operationId": "cb50ee5a-cf60-47f9-9705-e0b3894d99bc",
+        "code": "FAILURE",
+        "message": "Host ID of DPE unknown.",
+        "subStatus": {
+            "statusList": [
+                {
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:8000015f",
+                    "cmdCodes": [
+                        {
+                            "index": 0,
+                            "code": "CMD_ERROR_DPE_UNKNOWN",
+                            "message": "Host ID of DPE unknown."
+                        }
+                    ],
+                    "code": "CMD_ERROR_DPE_UNKNOWN",
+                    "batchCode": "BATCH_FAILED_QUERY",
+                    "message": "Error occurred during query. See the failed CommandStatus for details."
+                }
+            ]
+        }
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testgetExtenPointSettings" classname="api.test.ServerOperationTest" time="0.163">
+    <system-out><![CDATA[19:31:29.789 [main] INFO  api.test.ServerOperationTest - ************* ExtenPointSettings Details **********
+HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "extensionPointSettings": {
+        "cnrExtensionProperties": {
+            "/cnrExtension/attributesRequiredInV4Request": "relay-agent-remote-id",
+            "/cnrExtension/attributesRequiredInV6Relay": "peer-address",
+            "/cnrExtension/optionsRequiredInV6Request": "",
+            "/cnrExtension/attributesRequiredInRequest": "relay-agent-remote-id",
+            "/cnrExtension/attributesToPullFromRequestAsBytes": "chaddr,client-id,client-id-created-from-mac-address,dhcp-message-type,giaddr,hlen,htype,relay-agent-circuit-id,relay-agent-remote-id,vendor-encapsulated-options",
+            "/cnrExtension/attributesToPullFromRequestAsStrings": "dhcp-class-identifier,dhcp-parameter-request-list",
+            "/cnrExtension/attributesToPullFromV6RequestAsBytes": "",
+            "/cnrExtension/optionsToPullFromV6RelayAsBytes": "vendor-opts,interface-id",
+            "/cnrExtension/optionsRequiredInV6Relay": "",
+            "/cnrExtension/optionsToPullFromV6RequestAsBytes": "client-identifier,vendor-opts,vendor-class,oro",
+            "/cnrExtension/attributesToPullFromV6RelayAsBytes": "peer-address,link-address",
+            "/cnrExtension/attributesToPullFromV4RequestAsBytes": "chaddr,client-id,client-id-created-from-mac-address,dhcp-message-type,giaddr,hlen,htype,relay-agent-circuit-id,relay-agent-remote-id,vendor-encapsulated-options,relay-agent-info,v-i-vendor-opts,dhcp-parameter-request-list",
+            "/cnrExtension/attributesRequiredInV6Request": "",
+            "/cnrExtension/attributesToPullFromV4RequestAsStrings": "dhcp-class-identifier"
+        },
+        "genericproperties": {
+            "/generic/oidRevisionNumber": "2-1709819375000"
+        }
+    },
+    "operationStatus": {
+        "operationId": "47c3f2e0-9ca3-4d61-a3a0-eea99b84960f",
+        "code": "SUCCESS",
+        "message": "Operation successful",
+        "subStatus": {
+            "statusList": [
+                {
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:80000161",
+                    "cmdCodes": [
+                        {
+                            "index": 0,
+                            "code": "CMD_OK",
+                            "message": null
+                        }
+                    ],
+                    "code": "CMD_OK",
+                    "batchCode": "BATCH_COMPLETED",
+                    "message": null
+                }
+            ]
+        }
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testchangeDetafuls" classname="api.test.ServerOperationTest" time="0.215">
+    <system-out><![CDATA[19:31:29.956 [main] INFO  api.test.ServerOperationTest - ************* changeDetafuls Details **********
+HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "operationId": "7edac609-bfb3-4779-beb4-4ddcba265b24",
+    "code": "SUCCESS",
+    "message": "Operation successful",
+    "subStatus": {
+        "statusList": [
+            {
+                "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:80000163",
+                "cmdCodes": [
+                    {
+                        "index": 0,
+                        "code": "CMD_OK",
+                        "message": null
+                    }
+                ],
+                "code": "CMD_OK",
+                "batchCode": "BATCH_COMPLETED",
+                "message": null
+            }
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testchangeRDUDetafuls" classname="api.test.ServerOperationTest" time="0.271">
+    <system-out><![CDATA[19:31:30.174 [main] INFO  api.test.ServerOperationTest - ************* changeRDUDetafuls Details **********
+HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:09 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "operationId": "9554d27f-30ff-4cf5-a3ac-6f9f3ca1fd78",
+    "code": "SUCCESS",
+    "message": "Operation successful",
+    "subStatus": {
+        "statusList": [
+            {
+                "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:80000165",
+                "cmdCodes": [
+                    {
+                        "index": 0,
+                        "code": "CMD_OK",
+                        "message": null
+                    }
+                ],
+                "code": "CMD_OK",
+                "batchCode": "BATCH_COMPLETED",
+                "message": null
+            }
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateSession" classname="api.test.SearchTest" time="0.146">
+    <system-out><![CDATA[HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:09 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "sessionId": "23340F25169BA84C2BD549B28AFC1FE7893C15FA"
+}
+19:31:30.593 [main] INFO  api.test.SearchTest - *************  Session created **********
+]]></system-out>
+  </testcase>
+  <testcase name="testCOSSearch" classname="api.test.SearchTest" time="0.191">
+    <system-out><![CDATA[19:31:30.596 [main] INFO  api.test.SearchTest - *************  COS Search Details **********
+HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:09 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "operationStatus": {
+        "operationId": "a27fb0da-2f39-4d1c-bdbe-9f1c118bd161",
+        "code": "SUCCESS",
+        "message": "Operation successful",
+        "subStatus": {
+            "statusList": [
+                {
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:8000016a",
+                    "cmdCodes": [
+                        {
+                            "index": 0,
+                            "code": "CMD_OK",
+                            "message": null
+                        }
+                    ],
+                    "code": "CMD_OK",
+                    "batchCode": "BATCH_COMPLETED",
+                    "message": null
+                }
+            ]
+        }
+    },
+    "results": [
+        "unprovisioned-computer"
+    ],
+    "size": 1,
+    "next": null
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDhcpSearch" classname="api.test.SearchTest" time="0.24">
+    <system-out><![CDATA[19:31:30.792 [main] INFO  api.test.SearchTest - *************  DHCP Search Details **********
+HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:09 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "operationStatus": {
+        "operationId": "6d4314b8-ae70-4d79-a36f-14bdc4c1b59c",
+        "code": "SUCCESS",
+        "message": "Operation successful",
+        "subStatus": {
+            "statusList": [
+                {
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:8000016c",
+                    "cmdCodes": [
+                        {
+                            "index": 0,
+                            "code": "CMD_OK",
+                            "message": null
+                        }
+                    ],
+                    "code": "CMD_OK",
+                    "batchCode": "BATCH_COMPLETED",
+                    "message": null
+                }
+            ]
+        }
+    },
+    "results": [
+        "sample-provisioned",
+        "unprovisioned-cablehome-wan-data",
+        "unprovisioned-cablehome-wan-man",
+        "unprovisioned-computer",
+        "unprovisioned-docsis",
+        "unprovisioned-erouter",
+        "unprovisioned-packet-cable-mta",
+        "unprovisioned-rpd",
+        "unprovisioned-stb"
+    ],
+    "size": 9,
+    "next": null
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testFileSearch" classname="api.test.SearchTest" time="0.257">
+    <system-out><![CDATA[19:31:31.035 [main] INFO  api.test.SearchTest - *************  File Search Details **********
+HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:09 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "operationStatus": {
+        "operationId": "f04bcbb2-3b6f-4cd3-9481-a15d92ae2083",
+        "code": "SUCCESS",
+        "message": "Operation successful",
+        "subStatus": {
+            "statusList": [
+                {
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:8000016e",
+                    "cmdCodes": [
+                        {
+                            "index": 0,
+                            "code": "CMD_OK",
+                            "message": null
+                        }
+                    ],
+                    "code": "CMD_OK",
+                    "batchCode": "BATCH_COMPLETED",
+                    "message": null
+                }
+            ]
+        }
+    },
+    "results": [
+        {
+            "fileName": "docs-mcast-auth-mib",
+            "fileType": null,
+            "stream": null,
+            "properties": null,
+            "fileData": null,
+            "filePath": null,
+            "fileDataBytes": null
+        }
+    ],
+    "size": 1,
+    "next": {
+        "query": null,
+        "start": "docs-mcast-auth-mib",
+        "QueryValue": null,
+        "maxResults": 1,
+        "propertyFilter": null
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGroupSearch" classname="api.test.SearchTest" time="0.238">
+    <system-out><![CDATA[19:31:31.296 [main] INFO  api.test.SearchTest - *************  Group Search Details **********
+HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:10 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "operationStatus": {
+        "operationId": "97258a85-1506-45c5-a270-245856fc81c6",
+        "code": "SUCCESS",
+        "message": "Operation successful",
+        "subStatus": {
+            "statusList": [
+                {
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:80000170",
+                    "cmdCodes": [
+                        {
+                            "index": 0,
+                            "code": "CMD_OK",
+                            "message": null
+                        }
+                    ],
+                    "code": "CMD_OK",
+                    "batchCode": "BATCH_COMPLETED",
+                    "message": null
+                }
+            ]
+        }
+    },
+    "results": [
+        {
+            "name": "system-diagnostics",
+            "groupType": "system",
+            "properties": null
+        }
+    ],
+    "size": 1,
+    "next": {
+        "query": null,
+        "start": "system-diagnostics",
+        "QueryValue": {
+            
+        },
+        "maxResults": 10,
+        "propertyFilter": null
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchDevices" classname="api.test.SearchTest" time="0.204">
+    <system-out><![CDATA[19:31:31.537 [main] INFO  api.test.SearchTest - *************   Search Devices Details **********
+HTTP/1.1 200 
+Strict-Transport-Security: max-age=0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 07 Mar 2024 13:53:10 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "operationStatus": {
+        "operationId": "6b2d4cc7-a50f-4092-bf4e-768e37a6826e",
+        "code": "SUCCESS",
+        "message": "Operation successful",
+        "subStatus": {
+            "statusList": [
+                {
+                    "txId": "Batch:pcp-dpe-1/10.78.109.187:5c1e61a5:18e0ecbf69f:80000174",
+                    "cmdCodes": [
+                        {
+                            "index": 0,
+                            "code": "CMD_OK",
+                            "message": null
+                        }
+                    ],
+                    "code": "CMD_OK",
+                    "batchCode": "BATCH_COMPLETED",
+                    "message": null
+                }
+            ]
+        }
+    },
+    "results": [
+        
+    ],
+    "size": 0,
+    "next": null
+}
 ]]></system-out>
   </testcase>
 </testsuite>
